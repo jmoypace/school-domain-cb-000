@@ -8,8 +8,8 @@ def initialized(name)
 
 end
 
-def add_student=(student)
-  @student=student
+def add_student=(student_name, grade)
+
 end
 
 def roaster(roaster)
