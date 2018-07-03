@@ -8,7 +8,7 @@ class School
   end
 
   def add_student(student_name, grade)
-      @roster[grade] = []
+      @roster[grade] ||= []
       @roster[grade] << student_name
     end
   # this method should arrange the students in each grade by alphabetical order
