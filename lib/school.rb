@@ -11,6 +11,7 @@ def add_student=(student)
   @student=student
 end
 
-
+def roaster(roaster)
+  @roaster=roaster
 
 end
