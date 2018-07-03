@@ -4,7 +4,7 @@ attr_accessor :name, :roaster
 
 def initialized(name)
   @name=name
-  @roaster=[]
+  @roaster={}
 
 end
 
