@@ -3,7 +3,8 @@ class School
 
 def initialized(roster)
   @roaster=roaster
+  ROASTER=[]
 end
-ROASTER=[]
+
 
 end
