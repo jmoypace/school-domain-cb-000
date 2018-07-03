@@ -11,7 +11,7 @@ class School
       roster[grade] << student_name
     end
   # this method should arrange the students in each grade by alphabetical order
-  def grade(grade)
+  #def grade(grade)
       #roster[grade]
-    end
+  #  end
 end
