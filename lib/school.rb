@@ -1,10 +1,10 @@
 # code here!
 class School
 attr_accessor :student, :roaster
-ROASTER=[]
+
 def initialized(roster)
   @roaster=roaster
-
+ROASTER=[]
 end
 
 def add_student=(student)
