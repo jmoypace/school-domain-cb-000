@@ -3,7 +3,7 @@ class School
 attr_accessor :name, :roaster
 
 def initialized(name)
-  @name=name
+  @name = name
   @roaster={}
 
 end
